@@ -1,0 +1,102 @@
+{
+  "uuid": "590d14fa-0250-4d67-9257-ef9efcea4883",
+  "lastMigration": 33,
+  "name": "mockoon-environment",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3000,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "d51eb771-6100-4a54-943e-ba56e34e433f",
+      "type": "crud",
+      "documentation": "",
+      "method": "",
+      "endpoint": "tips",
+      "responses": [
+        {
+          "uuid": "6ff2de12-feff-4e55-85a7-a065f4bd2564",
+          "body": "{}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "DATABUCKET",
+          "filePath": "",
+          "databucketID": "pccw",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "d51eb771-6100-4a54-943e-ba56e34e433f"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [
+    {
+      "uuid": "7bdcc2bf-d9b4-4866-a0b9-7e843d5ebff7",
+      "id": "pccw",
+      "name": "db_tips",
+      "documentation": "",
+      "value": "[\r\n  {\r\n    \"id\": \"1\",\r\n    \"conceito\": \"useState\",\r\n    \"curiosidade\": \"O 'useState' retorna um array com duas posições: o valor atual do estado e a função para atualizá-lo.\"\r\n  },\r\n  {\r\n    \"id\": \"2\",\r\n    \"conceito\": \"useEffect\",\r\n    \"curiosidade\": \"Um 'useEffect' com um array de dependências vazio ([]) executa apenas uma vez, quando o componente é montado.\"\r\n  },\r\n  {\r\n    \"id\": \"3\",\r\n    \"conceito\": \"Componentes\",\r\n    \"curiosidade\": \"Componentes React devem sempre começar com letra maiúscula (ex: MeuComponente) para que o React os diferencie de tags HTML.\"\r\n  }\r\n]"
+    }
+  ],
+  "callbacks": []
+}
