@@ -27,7 +27,7 @@ A API REST é simulada pelo Mockoon e sua configuração está salva no arquivo 
 1.  **Baixe e instale o Mockoon:** [mockoon.com](https://mockoon.com/)
 2.  Abra o Mockoon.
 3.  Clique em **"Open environment"** (ícone de pasta) e selecione o arquivo `mockoon-environment.json` deste repositório.
-4.  Com o ambiente "Mural de Curiosidades React" carregado, clique no botão **"Start server"** (ícone de "play" verde).
+4.  Com o ambiente carregado, clique no botão **"Start server"** (ícone de "play" verde).
 
 A API agora está rodando em `http://localhost:3000`.
 
